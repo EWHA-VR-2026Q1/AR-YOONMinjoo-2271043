@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
-  - enabled: 1
+  - enabled: 0
     path: Assets/EX_Vuforia_Test/EX_Vuforia_Test.unity
     guid: a5b114f4ea77bca4995ebe819f2235c4
+  - enabled: 1
+    path: Assets/HW18_AR_Test/HW18_AR_Test.unity
+    guid: 4c485bd1e6c92a347bf01299be7a572a
   m_configObjects: {}
