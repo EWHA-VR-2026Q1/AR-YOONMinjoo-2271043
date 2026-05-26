@@ -1,8 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
-//using UnityEditor.EditorTools;
-
 public class Trigger_PhysicalMousePointer : MonoBehaviour
 {
     
@@ -37,7 +35,7 @@ public class Trigger_PhysicalMousePointer : MonoBehaviour
             {
                 // UI를 클릭한 경우이므로 게임 로직은 실행하지 않고 종료
                 Debug.Log("UI 클릭됨");
-                //generalInterface?.OnClick(SenderObject); // UI 클릭도 OnClick 이벤트로 처리할 수 있도록 호출
+                InterfaceBase?.OnClick(SenderObject); // UI 클릭도 OnClick 이벤트로 처리할 수 있도록 호출
                 return;
             }
 

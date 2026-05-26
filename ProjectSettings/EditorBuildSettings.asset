@@ -23,7 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/HW20_LimitedBody/HW20_LimitedBody.unity
     guid: d9a416eb774bac84587591ee2b1b97e6
-  - enabled: 1
+  - enabled: 0
     path: Assets/HW21_Canvas/HW21_Canvas.unity
     guid: 3ad7d89364f5af4449748b14840d979b
+  - enabled: 1
+    path: Assets/EX_ObjectAsInterface/EX_ObjectAsInterface.unity
+    guid: 069b767c1edd82f43a67b14cf30e2435
   m_configObjects: {}
